@@ -85,3 +85,14 @@ button {
   height: 95%;
   opacity: 0.5;
 }
+
+.twoChoices {
+  display: flex;
+  flex-direction: column;
+}
+
+.twoChoices a:nth-child(1),
+.twoChoices a:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
